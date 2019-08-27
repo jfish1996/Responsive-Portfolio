@@ -1,0 +1,50 @@
+#contactForm {
+    background-color: white;
+    width: 60%;
+    height: 30%;
+ }
+ form {
+    margin-left: 1%;
+    line-height: 200%;
+ }
+ input {
+    width: 95%;
+    height: .3%;
+ }
+
+ #tallmessage {
+    height: 30%;
+    resize: both;
+    overflow: auto;
+ }
+ #inputbutton {
+    background-color: #4aaaa5;
+    color: white;
+    width: 70px;
+    line-height: 150%;
+ }
+
+ #Contact {
+    color: lightblue;
+ }
+
+ @media screen and (max-width: 980px) {
+   #box {
+     margin:auto;
+    
+   }
+ }
+
+
+ @media screen and (max-width: 768px) {
+   body {
+       margin:auto;
+       
+   }
+ }
+
+   form {
+      margin: auto;
+   }
+
+   

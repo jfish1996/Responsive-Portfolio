@@ -1,0 +1,87 @@
+#cuteCat1 {
+
+    width: 200px;
+    height: 200px;
+padding: 20px;
+
+}
+
+#cuteCat2 {
+
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+#cuteCat3 {
+
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+
+}
+
+#cuteCat4 {
+
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+
+}
+
+#Port {
+    color: lightblue;
+    border-bottom: 5px solid gray;
+    border-bottom-width: thin;    
+
+}
+
+.project{
+    position: relative;
+}
+
+.projecttype{
+    position: absolute;
+    bottom:0;
+    left:0;
+    background-color:white;
+    font-size: 24px;
+    width:auto;
+}
+
+#project-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#box {
+    background-color: white;
+    width: 60%;
+    height: 210%;
+    margin: 3%;
+    margin-left: 30%;
+    
+  }
+
+  
+@media screen and (max-width: 540px) {
+    #project-container {
+      margin:auto;
+      
+    }
+
+    #Cutecat1 #Cutecat2 #Cutecat3 #Cutecat4 {
+      width: auto;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    #box {
+      margin:auto;
+      
+    }
+
+  
+  }
